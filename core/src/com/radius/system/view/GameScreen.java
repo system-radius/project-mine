@@ -33,7 +33,7 @@ public class GameScreen extends AbstractScreen implements ButtonPressListener, L
 
     public static final String APP_NAME = "project-mine";
 
-    public static final float SCALE = 64f;
+    public static final float SCALE = 96f;
     private static final float VIEWPORT_WIDTH = 9f;
     private static final float VIEWPORT_HEIGHT = 16f;
     private static final float EFFECTIVE_VIEWPORT_DIVIDER = 2f;

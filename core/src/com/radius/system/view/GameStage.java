@@ -221,7 +221,7 @@ public class GameStage extends Stage implements ButtonPressListener {
     }
 
     private void SetUIStates() {
-        pauseButton.setVisible(!paused);
+        pauseButton.setVisible(!paused && !askingName);
         settingsTable.setVisible(paused && !askingName);
         //scoresTable.setVisible(paused);
 
